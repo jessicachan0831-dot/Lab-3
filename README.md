@@ -1,43 +1,50 @@
-# IAT 460 — Week 3 Lab: Generative Grammars, L-Systems and Markov models
+# Between the Abyss and the Stars
 
-Welcome to the Week 3 lab for **IAT 460 - Computational Creativity**! This repository contains 3 lab notebooks.
+## Project Overview
 
----
+This project is an L-System based generative art project created for IAT 460. It explores visual similarities between natural and cosmic structures through two different L-System rule sets:
 
-## Lab Overview
+- **Bioluminescent Coral** — an asymmetric branching structure inspired by coral and underwater plants
+- **Stellar Bloom** — a radial structure inspired by snowflakes, crystals, flowers, and stars
 
-In this lab, you will get hands-on experience with:
+The final Cosmic Garden** combines both systems in one dark environment with scattered points of light.
 
-- Using **context-free grammars** for generating natural language sentences.
-- Using **L-Systems** for fractal generation
-- Generating text using **Markov Chains**, and further exploration with higher-order **Markov Models**
+## Requirements
 
-> **Note**: You are not expected to understand all the code. Focus on exploration, experimentation, and discussion.
+This project uses Python and the following library:
 
----
+- ColabTurtle
 
-## Running **Python** notebooks
+The project was developed and tested in Google Colab.
 
-### Option 1
+## How to Run
 
-If you are familiar with github, you can clone this repo and run the notebook in your IDE or tool of choice.
+1. Open `l-systems.ipynb` in Google Colab.
+2. Run the installation cell:
 
-```bash
-git clone https://github.com/IAT-ComputationalCreativity-Spring2026/Lab-3.git
-cd Lab-3
-```
+   `!pip install ColabTurtle`
 
-Create a python virtual environmment (Python 3.12 recommended).
+3. Run the notebook cells from top to bottom.
+4. The notebook will generate the different L-System patterns and sample outputs.
 
-```bash
-python3 -m venv .venv
-# or
-conda create -n iat460lab3 python=3.12
-```
+## Adjustable Parameters
 
-### Option 2
+The appearance of the generated patterns can be changed by adjusting:
 
-The provided notebook is accessible in Google Colab and requires no setup:
-- [grammars](https://colab.research.google.com/github/IAT-ComputationalCreativity-Spring2026/Lab-3/blob/main/generative_grammars.ipynb)
-- [l-systems](https://colab.research.google.com/github/IAT-ComputationalCreativity-Spring2026/Lab-3/blob/main/l-systems.ipynb)
-- [markov models](https://colab.research.google.com/github/IAT-ComputationalCreativity-Spring2026/Lab-3/blob/main/markov_models.ipynb)
+- `iterations` — controls the complexity and amount of branching
+- `angle` — controls the direction and spread of branches
+- `distance` — controls the length of each drawn segment
+- color values — control the appearance of different branch depths
+- line thickness — represents different stages of growth
+
+## Sample Outputs
+
+The project includes five sample outputs:
+
+1. Young Coral
+2. Mature Coral
+3. Young Stellar Bloom
+4. Mature Stellar Bloom
+5. Cosmic Garden
+
+The samples demonstrate how different parameters and iteration depths can change the final generated structure.
