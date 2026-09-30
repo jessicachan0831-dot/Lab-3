@@ -27,6 +27,7 @@ The project was developed and tested in Google Colab.
 3. Run the notebook cells from top to bottom.
 4. The notebook will generate the different L-System patterns and sample outputs.
 
+
 ## Adjustable Parameters
 
 The appearance of the generated patterns can be changed by adjusting:
@@ -48,3 +49,4 @@ The project includes five sample outputs:
 5. Cosmic Garden
 
 The samples demonstrate how different parameters and iteration depths can change the final generated structure.
+This project was developed from the Week 3 L-System lab framework and extended with custom rules, visual styling, and combined generative scenes.
