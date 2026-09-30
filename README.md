@@ -7,7 +7,7 @@ This project is an L-System based generative art project created for IAT 460. It
 - **Bioluminescent Coral** — an asymmetric branching structure inspired by coral and underwater plants
 - **Stellar Bloom** — a radial structure inspired by snowflakes, crystals, flowers, and stars
 
-The final Cosmic Garden** combines both systems in one dark environment with scattered points of light.
+The final **Cosmic Garden** combines both systems in one dark environment with scattered points of light.
 
 ## Requirements
 
